@@ -25,7 +25,7 @@ SECRET_KEY = '7zx+h!+u^7g5qo13@q2&i-w@pd@0spiacf(c-i566%@uc2ozyk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<psycoelectro>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'psycoelectro.pythonanywhere.com']
 
 
 # Application definition

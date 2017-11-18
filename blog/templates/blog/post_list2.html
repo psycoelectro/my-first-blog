@@ -1,9 +1,19 @@
 <html>
     <head>
-        <title>Le Blog d'Ola</title>
+        <title>Le Blog de psycoelectro</title>
     </head>
     <body>
-        <p>Hi2!</p>
-        <p>hello coco!</p>
+       <div>
+       	<h1> Blog Django </h1>
+       </div>	
+       
+    {% for post in posts %}
+	    <div>
+	        <p>publié: {{ post.published_date }}</p>
+	        <h1><a href="">{{ post.title }}</a></h1>
+	        <p>{{ post.text|linebreaksbr }}</p>
+	    </div>
+	{% endfor %}
+
     </body>
 </html>
